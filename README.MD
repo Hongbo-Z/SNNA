@@ -5,7 +5,7 @@ We propose a novel method for generating noise-free explanations for ViT and eva
 <!-- ![image](/SNNA/paper_img/framework.png) -->
 Our framework consists of two stages: self-supervised training and supervised multi-label classification fine-tuning.
 <p align="center">
-  <img width="500" src="/SNNA/paper_img/framework.png">
+  <img width="500" src="/paper_img/framework.png">
 </p>
 
 ## Environment Installation
@@ -50,7 +50,7 @@ python multi_label_train.py --num_labels 4 --patch_size 8 --batch_size_per_gpu 4
 ```
 
 ## SNNA Explanation with Notebook *exp_vis.ipynb*
-![image](/SNNA/paper_img/demo.png)
+![image](/paper_img/demo.png)
 
 
 ## Credits
